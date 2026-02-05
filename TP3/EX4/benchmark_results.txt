@@ -1,0 +1,98 @@
+Matrix Multiplication Benchmark
+================================
+
+Testing STATIC scheduling:
+Threads: 1
+Matrix multiplication completed
+Matrix size: 1000 x 1000
+Number of threads: 1
+CPU time: 0.947310 seconds
+
+Threads: 2
+Matrix multiplication completed
+Matrix size: 1000 x 1000
+Number of threads: 2
+CPU time: 0.447257 seconds
+
+Threads: 4
+Matrix multiplication completed
+Matrix size: 1000 x 1000
+Number of threads: 4
+CPU time: 0.244590 seconds
+
+Threads: 8
+Matrix multiplication completed
+Matrix size: 1000 x 1000
+Number of threads: 8
+CPU time: 0.221787 seconds
+
+Threads: 16
+Matrix multiplication completed
+Matrix size: 1000 x 1000
+Number of threads: 16
+CPU time: 0.338527 seconds
+
+
+Testing DYNAMIC scheduling:
+Threads: 1
+Matrix multiplication completed
+Matrix size: 1000 x 1000
+Number of threads: 1
+CPU time: 0.902872 seconds
+
+Threads: 2
+Matrix multiplication completed
+Matrix size: 1000 x 1000
+Number of threads: 2
+CPU time: 0.437373 seconds
+
+Threads: 4
+Matrix multiplication completed
+Matrix size: 1000 x 1000
+Number of threads: 4
+CPU time: 0.251067 seconds
+
+Threads: 8
+Matrix multiplication completed
+Matrix size: 1000 x 1000
+Number of threads: 8
+CPU time: 0.256391 seconds
+
+Threads: 16
+Matrix multiplication completed
+Matrix size: 1000 x 1000
+Number of threads: 16
+CPU time: 0.296351 seconds
+
+
+Testing GUIDED scheduling:
+Threads: 1
+Matrix multiplication completed
+Matrix size: 1000 x 1000
+Number of threads: 1
+CPU time: 0.913169 seconds
+
+Threads: 2
+Matrix multiplication completed
+Matrix size: 1000 x 1000
+Number of threads: 2
+CPU time: 0.618063 seconds
+
+Threads: 4
+Matrix multiplication completed
+Matrix size: 1000 x 1000
+Number of threads: 4
+CPU time: 0.308106 seconds
+
+Threads: 8
+Matrix multiplication completed
+Matrix size: 1000 x 1000
+Number of threads: 8
+CPU time: 0.234362 seconds
+
+Threads: 16
+Matrix multiplication completed
+Matrix size: 1000 x 1000
+Number of threads: 16
+CPU time: 0.267440 seconds
+
