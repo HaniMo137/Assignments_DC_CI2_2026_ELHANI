@@ -1,0 +1,22 @@
+MPI Compilation on Windows
+==========================
+
+MS-MPI requires both components:
+1. msmpisetup.exe (Runtime) - INSTALLED ✓
+2. msmpisdk.msi (SDK for compilation) - NEEDED
+
+Download both from:
+https://www.microsoft.com/en-us/download/details.aspx?id=100593
+
+After installing SDK, compile with:
+gcc -o program.exe program.c -I"C:\Program Files (x86)\Microsoft SDKs\MPI\Include" -L"C:\Program Files (x86)\Microsoft SDKs\MPI\Lib\x64" -lmsmpi
+
+Or use Visual Studio's cl compiler:
+cl program.c /I"C:\Program Files (x86)\Microsoft SDKs\MPI\Include" /link /LIBPATH:"C:\Program Files (x86)\Microsoft SDKs\MPI\Lib\x64" msmpi.lib
+
+Alternative: Use WSL (Windows Subsystem for Linux)
+1. wsl --install
+2. Inside WSL: sudo apt-get install mpich
+3. cd to your Windows directory: cd /mnt/c/Users/...
+4. Compile: mpicc -o program program.c
+5. Run: mpirun -np 4 ./program
