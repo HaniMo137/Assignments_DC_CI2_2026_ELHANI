@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/hanir/Desktop/S4/Parallel_computing/Parallel_Computing_TPs/Assignments_DC_CI2_2026_ELHANI/TP3/EX1",
+      "program": "c:/Users/hanir/Desktop/S4/Parallel_computing/Parallel_Computing_TPs/Assignments_DC_CI2_2026_ELHANI/TP3/EX1/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
